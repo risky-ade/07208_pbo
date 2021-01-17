@@ -14,10 +14,8 @@ public class Risky07208_AnggotaGUI {
    JFrame Anggota = new JFrame();
    JTable tabelbuku =new JTable();
    JScrollPane scrollbuku = new JScrollPane(tabelbuku);
-   JButton back,daftarbtn,pinjam,kembali;
-   JTextArea area = new JTextArea();
-   JTextField textkode,textjudul;
-   JLabel datadiri,top,status,labelkode,labeljudul;
+   JButton back;
+   JLabel top;
    int index;
     
     public Risky07208_AnggotaGUI(){
